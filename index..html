@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <link rel="stylesheet" href="ind.css">
+    <title>Портфоліо</title>
+
+    <meta name="description" content="Особисте портфоліо Ані — освіта, навички, хобі, улюблені книги, музика та цілі.">
+
+    <link rel="icon" href="img/icon.png">
+
+    <meta property="og:title" content="Портфоліо ">
+    <meta property="og:description" content="Моє портфоліо: освіта, навички, хобі та захоплення.">
+    <meta property="og:image" content="img/preview.jpg">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#about-me">Про мене</a>
+        <a href="#school">Школа</a>
+        <a href="#university">Університет</a>
+        <a href="#favorite subjects">Улюблені предмети</a>
+        <a href="#skills">Навички</a>
+        <a href="#hobbies">Хобі</a>
+        <a href="#books">Книги</a>
+        <a href="#music">Музика</a>
+        <a href="#films">Фільми</a>
+        <a href="#activities">Активності</a>
+        <a href="#my city">Моє місто</a>
+        <a href="#goals">Цілі на найближчий рік</a>
+        <a href="#fun-facts">Цікаві факти</a>
+        <a href="#quotes">Цитати</a>
+        <a href="#schedule">Розклад</a>
+        <a href="#contacts">Контакти</a>
+        <a href="#footer">Додаткова інформація</a>
+    </nav>
+</header>
+<main>
+    <h1>Моє портфоліо</h1>
+    <section class="about-me" id="about">
+        <h2 class="about-me__title">Про мене</h2>
+        <h3 class="about-me__name">Аня</h3>
+
+        <picture>
+            <source media="(max-width: 768px)" srcset="img/me.jpg" width="150" height="200">
+            <img class="about-me__avatar" src="img/me.jpg" alt="моє фото" width="150" height="200" loading="lazy">
+        </picture>
+
+        <p class="about-me__description">
+            Привіт! Я студентка факультету прикладної математики та інформатики. У цьому портфоліо я зібрала багато цікавої інформації про свої навчання, захоплення та цілі. Сподіваюся, вам буде цікаво дізнатися про мене більше!
+        </p>
+    </section>
+
+    <section class="education-school" id="school">
+        <h2 class="education-school__title">Освіта:Школа</h2>
+        <h3 class="education-school__name">СЗОШ I-III ступенів №5 з поглибленним вивченням предметів природничо-математичного циклу</h3>
+        <time datetime="2013">2013</time>–<time datetime="2024">2024</time>
+        <p class="education-school__description">Моя школа запам'яталась хорошими викладачами ,які завжди були готові допомогти,якщо щось було незрозуміло,дружнім класом і великою кількістю творчої діяльності</p>
+    </section>
+
+    <section class="education-university" id="university">
+        <h2 class="education-university__title">Освіта:Університет</h2>
+        <h3 class="education-university__name">Львівський Національниц університет імені Івана Франка</h3>
+        <p class="education-university__details">Прикладна математик та інформатика</p>
+        <p class="education-university__detailse">3 курс</p>
+        <h3 class="education-university__subtitle">Улюблені дисципліни</h3>
+
+        <ul class="education-university__subjects-list">
+            <li class="education-university__subject-item">Дискретна матемтика</li>
+            <li class="university-university__subject-item">Чисельні методи лінійної алгебри</li>
+            <li class="education-university__subject-item">Теорія ймовірності та математична статистика</li>
+        </ul>
+    </section>
+
+    <section class="favorite-subjects" id="favorite subjects">
+        <h2 class="favorite-subjects__title">Улюблені навчальні предмети</h2>
+
+        <ul class="favorite-subjects__list">
+            <li class="favorite-subjects__item">
+                <h3 class="favorite-subjects__subject-name">Дискретна математика</h3>
+                <p class="favorite-subjects__reason">
+                    Цей предмет добре розвиває логіку та деякі частини з нього можна було використовувати в подальшому в програмуванні
+                </p>
+            </li>
+            <li class="favorite-subjects__item">
+                <h3 class="favorite-subjects__subject-name">Чисельні методи лінійної алгебри</h3>
+                <p class="favorite-subjects__reason">
+                    Цей предмет був цікавим ,тому що він пояснював методи розв'язання різних задач лінійної алгебри за допомогою алгоритмів
+                </p>
+            </li>
+            <li class="favorite-subjects__item">
+                <h3 class="favorite-subjects__subject-name">Теорія ймовірності та математична статистика</h3>
+                <p class="favorite-subjects__reason">
+                    Ця дисципліна була цікавою тим,що можна було дізнатись про використання ймовірності в різних сферах а також ,наприклад,візуалізувати якісь статистичні дані і проаналізувати їх
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="skills__title">Навички</h2>
+        <ul class="skills__type-list">
+            <li class="skills-__item">
+                <h3 class="skills__category-title">Технічні навички</h3>
+                <ul class="skills__list">
+                    <li class="skills__item">
+                        <p class="skills__item-name">Робота з с++</p>
+                        <progress class="skills__item-score" max="100" value="80"></progress>
+                    </li>
+                    <li class="skills__item">
+                        <p class="skills__item-name">Розробка ігор на Godot</p>
+                        <progress class="skills__item-score" max="100" value="40"></progress>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="skills-__item">
+                <h3 class="skills__category-title"> Особистісні навички</h3>
+                <ul class="skills__list">
+                    <li class="skills__item">
+                        <p class="skills__item-name">Адаптивність</p>
+                    </li>
+                    <li class="skills__item">
+                        <p class="skills__item-name">Командна робота</p>
+                    </li>
+                    <li class="skills__item">
+                        <p class="skills__item-name">Доброта</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="hobbies" id="hobbies">
+        <h2 class="hobbies__title">Хобі та захоплення</h2>
+
+
+        <ul class="hobbies__grid">
+
+
+            <li class="hobbies__item hobby-card">
+                <img class="hobby-card__image" src="img/piano.jpg" alt="Фортепіано" width="300" height="200" loading="lazy">
+                <h3 class="hobby-card__title">Фортепіано</h3>
+            </li>
+
+            <li class="hobbies__item hobby-card">
+                <img class="hobby-card__image" src="img/photo.jpg" alt="Фотографія" width="300" height="200" loading="lazy">
+                <h3 class="hobby-card__title">Фотографія</h3>
+            </li>
+
+            <li class="hobbies__item hobby-card">
+                <img class="hobby-card__image" src="img/paint.jpg" alt="Малювання" width="300" height="200" loading="lazy">
+                <h3 class="hobby-card__title">Малювання</h3>
+            </li>
+
+            <li class="hobbies__item hobby-card">
+                <img class="hobby-card__image" src="img/guitar.jpg" alt="Гітара" width="300" height="200" loading="lazy">
+                <h3 class="hobby-card__title">Гітара</h3>
+            </li>
+
+        </ul>
+    </section>
+
+    <section class="favorite-books" id="books">
+        <h2 class="favorite-books__title">Мої улюблені книги</h2>
+        <ul class="favorite-books__list">
+            <li class="favorite-books__item">
+                <article>
+                    <img class="favorite-books__cover" src="img/book1.jpg" alt="обкладинка Мовчання ягнят" width="150" height="200" loading="lazy">
+                    <h3 class="favorite-books__title">Мовчання ягнят</h3>
+                    <p class="favorite-books__author">Томас Гарріс</p>
+                    <p class="favorite-books__description">Досить цікавий детектив ,який удже легко читається</p>
+                </article>
+            </li>
+
+            <li class="favorite-books__item">
+                <article>
+                    <img class="favorite-books__cover" src="img/book2.jpg" alt=" обкладинка Кладовище домашніх тварин" width="150" height="200" loading="lazy">
+                    <h3 class="favorite-books__title">Кладовище домашніх тварин</h3>
+                    <p class="favorite-books__author">Стівен Кінг</p>
+                    <p class="favorite-books__description">Дуже страшна книга ,яка навчила мене відпускати минуле</p>
+                    <</article>
+            </li>
+            <li class="favorite-books__item">
+                <article>
+                    <img class="favorite-books__cover" src="img/book3.jpg" alt="обкладинка Хрещений батько" width="150" height="200" loading="lazy">
+                    <h3 class="favorite-books__title">Хрещений батько</h3>
+                    <p class="favorite-books__author">Маріо П'юзо</p>
+                    <p class="favorite-books__description">Цікавий роман,про сицилійську мафію про правила і закони в цьому суспільстві</p>
+                </article>
+
+            </li>
+            <li class="favorite-books__item">
+                <article>
+                    <img class="favorite-books__cover" src="img/book4.webp" alt="обкладинка Тріумфальна арка" width="150" height="200" loading="lazy">
+                    <h3 class="favorite-books__title">Тріумфальна арка</h3>
+                    <p class="favorite-books__author">Еріх Марія Ремарк</p>
+                    <p class="favorite-books__description">Дуже зворушливий твір ,який розкриває тему стосунків </p>
+                </article>
+
+            </li>
+            <li class="favorite-books__item">
+                <article>
+                    <img class="favorite-books__cover" src="img/book5.jpg" alt="обкладинка Двері в літо" width="150" height="200" loading="lazy">
+                    <h3 class="favorite-books__title">Двері в літо</h3>
+                    <p class="favorite-books__author">Роберт Гайнлайн</p>
+                    <p class="favorite-books__description">Дуже цікава фанстачтика,яку дуже неважко читати.А ще там один з головних героїв котик</p>
+                </article>
+
+            </li>
+        </ul>
+    </section>
+
+    <section class="favorite-music" id="music">
+        <h2 class="favorite-music__title">Моя улюблена музика</h2>
+        <ul class="favorite-music__list">
+            <li class="favorite-music__item">
+                <h3 class = "favorite-music__title">Metalica-Kill`em All</h3>
+                <iframe src="https://open.spotify.com/embed/album/6FMPDVTm8l5IrEQla46VQl"></iframe>
+            </li>
+            <li class="favorite-music__item">
+                <h3 class = "favorite-music__title">Alice in Chains-Facelift</h3>
+                <iframe src="https://open.spotify.com/embed/album/24RN3saFUfzYYGLviEh4JZ"></iframe>
+            </li>
+            <li class="favorite-music__item">
+                <h3 class = "favorite-music__title">Pantera-The vulgar display of power</h3>
+                <iframe src="https://open.spotify.com/embed/album/7kW0cpKgSVsEqcc8xgbSb0"></iframe>
+            </li>
+            <li class="favorite-music__item">
+                <h3 class = "favorite-music__title"> Derek and the Dominos-Layla and Other Assorted Love Songs</h3>
+                <iframe src="https://open.spotify.com/embed/album/2maJtQbSFidj1tFY4bIhAo"></iframe>
+            </li>
+        </ul>
+    </section>
+
+    <section class="favorite-films" id="films">
+        <h2 class="favorite-films__title">Мої улюблені фільми</h2>
+        <ul class="favorite-films__list">
+            <li class="favorite-films__item">
+                <img class="favorite-films__cover" src="img/film1.jpg" alt="Ітеча з Шоушенка" width="150" height="200" loading="lazy">
+                <h3 class="favorite-films__title">Втеча з Шоушенку</h3>
+                <time datetime="1994">1994</time>
+                <p class="favorite-films__score">5/5</p>
+            </li>
+            <li class="favorite-films__item">
+                <img class="favorite-films__cover" src="img/film2.jpg" alt="Реінкарнація" width="150" height="200" loading="lazy">
+                <h3 class="favorite-films__title">Реінкарнація</h3>
+                <time datetime="2018">2018</time>
+                <p class="favorite-films__score">4/5</p>
+            </li>
+            <li class="favorite-films__item">
+                <img class="favorite-films__cover" src="img/film3.jpg" alt="Гравіті фолз" width="150" height="200" loading="lazy">
+                <h3 class="favorite-films__title">Гравіті Фолз</h3>
+                <time datetime="2012">2012</time>
+                <p class="favorite-films__score">5/5</p>
+            </li>
+            <li class="favorite-films__item">
+                <img class="favorite-films__cover" src="img/film4.jpg" alt="Фантазм" width="150" height="200" loading="lazy">
+                <h3 class="favorite-films__title">Фантазм</h3>
+                <time datetime="1979">1979</time>
+                <p class="favorite-films__score">4/5</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="activities" id="activities">
+        <h2 class="activities__title">Активності</h2>
+        <ul class="activities__list">
+            <li class="activities__item">
+                <h3 class="activities__title">Волонтерство</h3>
+                <p class="activities__description">З 2015 року займаюсь волонтерством в громадській організації "Ніжність. Допомагаю дітям з фізичними вадами та безпосередньо аутизмом соціалізуватись та розвиватись в творчості,кулінарії та інших сферах"</p>
+            </li>
+            <li class="activities__item">
+                <h3 class="activities__title">Викладацька діяльність</h3>
+                <p class="activities__description">Більше року навчаю дітей. Викладаю математику. Проводжу індивідуальні та групові заняття</p>
+            </li>
+
+        </ul>
+    </section>
+
+    <section class="travel-section" id="my city">
+        <h2>Моє рідне місто</h2>
+
+        <figure>
+            <img src="img/photo1.jpg" alt="Паркове озеро в місті Горішні Плавні" width="300" height="200" loading="lazy">
+            <figcaption> Паркове озеро в місті Горішні Плавні </figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/photo2.jpg" alt="вид на Дніпро" width="300" height="200" loading="lazy">
+            <figcaption> вид на Дніпро</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/photo3.jpg" alt="вулиця Добровольського" width="300" height="200" loading="lazy">
+            <figcaption>вулиця Добровольського</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/photo4.jpg" alt="Церква" width="300" height="200" loading="lazy">
+            <figcaption>Церква</figcaption>
+        </figure>
+
+
+    </section>
+
+    <section class="goals" id="goals">
+        <h2>Цілі на найближчий рік</h2>
+        <ul>
+            <li>
+                <strong>Випустити демоверсію гри в Steam</strong>
+
+                <progress value="15" max="100">15%</progress>
+                <span>15%</span>
+            </li>
+
+            <li>
+                <strong>Відіграти мінімум 5 концертів з музикальною групою</strong>
+
+                <progress value="0" max="100">0%</progress>
+                <span>0%</span>
+            </li>
+        </ul>
+        <details>
+            <summary>Детальніше про мої цілі</summary>
+            <p>Хочу розвиватися у створенні ігор та музичній діяльності.</p>
+        </details>
+    </section>
+
+    <aside class="fun-facts" id="fun-facts">
+        <h2>Цікаві факти про мене</h2>
+        <ul>
+            <li>Обожнюю викладати математику</li>
+            <li>Кожен рік бігаю студентську милю</li>
+            <li>Колекціоную вінілові платівки з роком та металом</li>
+            <li>Вірю, що найкращий спосіб щось зрозуміти — спробувати пояснити це іншій людині.</li>
+            <li>Вмію грати на акустичній гітарі та іноді виступаю на локальних квартирниках.</li>
+        </ul>
+    </aside>
+
+    <section class="quotes" id="quotes">
+        <h2>Улюблені цитати</h2>
+        <blockquote cite="https://womo.ua/duzhe-divno-shho-neshhastya-svitu-tak-chasto-sprichinyayut-malenki-lyudi-29-naykrashhih-tsitat-remarka/">
+            <p>Небеса не мають улюбленців.</p>
+            <cite>
+                — <a href="https://womo.ua/duzhe-divno-shho-neshhastya-svitu-tak-chasto-sprichinyayut-malenki-lyudi-29-naykrashhih-tsitat-remarka/" target="_blank" rel="noopener noreferrer">Еріх Марія Ремарк</a>
+            </cite>
+        </blockquote>
+    </section>
+
+    <section class="schedule-section" id="schedule">
+        <h2>Мій розклад занять</h2>
+
+        <table border="1">
+            <caption>Розклад занять на тиждень</caption>
+
+            <thead>
+            <tr>
+                <th scope="col">День тижня</th>
+                <th scope="col">Час</th>
+                <th scope="col">Назва дисципліни</th>
+                <th scope="col">Тип заняття</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <th scope="row" rowspan="3">Понеділок</th>
+                <td>8:30 – 9:50</td>
+                <td>Архітектура комп'ютерних систем та мереж</td>
+                <td>Лекція</td>
+            </tr>
+            <tr>
+                <td>10:10 – 11:30</td>
+                <td>Чисельні методи</td>
+                <td>Лекція</td>
+            </tr>
+            <tr>
+                <td>11:50 – 13:10</td>
+                <td>Історія рок-музики</td>
+                <td>Лекція</td>
+            </tr>
+
+            <tr>
+                <th scope="row" rowspan="2">Вівторок</th>
+                <td>8:30 – 9:50</td>
+                <td>Використання систем комп'ютерної математики</td>
+                <td>Лекція</td>
+            </tr>
+            <tr>
+                <td>10:10 – 11:30</td>
+                <td>Використання систем комп'ютерної математики</td>
+                <td>Практика</td>
+            </tr>
+
+            <tr>
+                <th scope="row" rowspan="4">Середа</th>
+                <td>8:30 – 9:50</td>
+                <td>Програмне забезпечення</td>
+                <td>Практика</td>
+            </tr>
+            <tr>
+                <td>10:10 – 11:30</td>
+                <td>Бази даних та інформаційні системи</td>
+                <td>Практика</td>
+            </tr>
+            <tr>
+                <td>11:50 – 13:10</td>
+                <td>Основи веб програмування</td>
+                <td>Лекція</td>
+            </tr>
+            <tr>
+                <td>13:30 – 14:50</td>
+                <td>Основи веб програмування</td>
+                <td>Практика</td>
+            </tr>
+
+            <tr>
+                <th scope="row" rowspan="3">Четвер</th>
+                <td>8:30 – 9:50</td>
+                <td>Бази даних та інформаційні системи</td>
+                <td>Лекція</td>
+            </tr>
+            <tr>
+                <td>10:10 – 11:30</td>
+                <td>Архітектура комп'ютерних систем та мереж</td>
+                <td>Практика</td>
+            </tr>
+            <tr>
+                <td>11:50 – 13:10</td>
+                <td>Історія рок-музики</td>
+                <td>Практика</td>
+            </tr>
+
+            <tr>
+                <th scope="row" rowspan="4">П'ятниця</th>
+                <td>8:30 – 9:50</td>
+                <td>Програмне забезпечення</td>
+                <td>Лекція</td>
+            </tr>
+            <tr>
+                <td>10:10 – 11:30</td>
+                <td>Чисельні методи </td>
+                <td>Практика</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <h2 class="contacts__title">Контакти</h2>
+
+        <address>
+            <p>Telegram: @idnwinj</p>
+            <p>GitHub: idnwinj</p>
+        </address>
+
+        <!-- Форма з вбудованою браузерною валідацією -->
+        <form class="contacts__form" action="#" method="get" onsubmit="event.preventDefault(); alert('Форма успішно пройшла валідацію (імітація)!');">
+
+            <!-- Поле "Ім'я" -->
+            <div class="form-group">
+                <label for="user-name">Ім'я:</label>
+                <input
+                        type="text"
+                        id="user-name"
+                        name="name"
+                        required
+                        minlength="2"
+                        pattern="^[A-Za-zА-Яа-яЁёІіЇїЄєҐґ'\s]+$"
+                        placeholder="Ваше ім'я">
+            </div>
+
+            <!-- Поле "E-mail" -->
+            <div class="form-group">
+                <label for="user-email">E-mail:</label>
+                <input
+                        type="email"
+                        id="user-email"
+                        name="email"
+                        required
+                        placeholder="example@mail.com">
+            </div>
+
+            <!-- Поле "Тема" -->
+            <div class="form-group">
+                <label for="message-subject">Тема повідомлення:</label>
+                <select id="message-subject" name="subject" required>
+                    <option value="" disabled selected>Оберіть тему...</option>
+                    <option value="cooperation">Співпраця</option>
+                    <option value="question">Запитання щодо навчання</option>
+                    <option value="feedback">Відгук / Інше</option>
+                </select>
+            </div>
+
+            <!-- Поле "Повідомлення" -->
+            <div class="form-group">
+                <label for="user-message">Повідомлення:</label>
+                <textarea
+                        id="user-message"
+                        name="message"
+                        required
+                        minlength="10"
+                        placeholder="Напишіть ваше повідомлення тут (мінімум 10 символів)..."></textarea>
+            </div>
+
+            <!-- Згода на обробку персональних даних -->
+            <div class="form-group form-group--checkbox">
+                <input
+                        type="checkbox"
+                        id="privacy-agreement"
+                        name="agreement"
+                        required>
+                <label for="privacy-agreement">Я даю згоду на обробку моїх персональних даних</label>
+            </div>
+
+
+            <button type="submit" class="btn-submit">Надіслати</button>
+        </form>
+    </section>
+</main>
+
+<footer class="footer" id="footer">
+    <div class="footer__container">
+        <!-- Копірайт -->
+        <p class="footer__copyright">&copy; Всі права захищені.</p>
+
+        <!-- Посилання на соцмережі -->
+        <ul class="footer__socials">
+
+
+            <!-- Посилання "Нагору" (плавний перехід до верху сторінки, якщо додати в CSS scroll-behavior: smooth) -->
+            <a href="#" class="footer__to-top">Нагору ↑</a>
+    </div>
+</footer>
+
+</body>
+</html>
